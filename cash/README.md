@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This library can converte an amount of money in 35 different currency. This library can be used with Node.Js
+This library can convert an amount of money in 35 different currency. This library can be used with Node.Js
 
 For example, if I want to convert 30 EUR in USD :
  ```console
@@ -59,11 +59,12 @@ Gives :
 
 ## Good to know 
 
-You can only give the currencie you want to convert. This will automatically convert the amount in US Dollar, in Pound Sterling and in Polish Zloty.
+You can give only the currencie you want to convert. This will automatically convert the amount in US Dollar, in Pound Sterling and in Polish Zloty.
 
 Example : 
  ```console
 node index.js 30 EUR 
+
 √ 36.87 (USD) US Dollar
 √ 26.67 (GBP) Pound Sterling
 √ 126.05 (PLN) Polish Zloty
