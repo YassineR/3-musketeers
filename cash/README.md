@@ -59,13 +59,14 @@ Gives :
 
 ## Good to know 
 
-You can give only the currencie you want to convert. This will automatically convert the amount in US Dollar, in Pound Sterling and in Polish Zloty.
+You can give only the currencie you want to convert. This will automatically convert the amount in US Dollar, Euro, Pound Sterling and in Polish Zloty.
 
 Example : 
  ```console
-node index.js 30 EUR 
+node index.js 1 CNY
 
-√ 36.87 (USD) US Dollar
-√ 26.67 (GBP) Pound Sterling
-√ 126.05 (PLN) Polish Zloty
+√ 0.16 (USD) US Dollar
+√ 0.13 (EUR) Euro
+√ 0.11 (GBP) Pound Sterling
+√ 0.54 (PLN) Polish Zloty
 ```
