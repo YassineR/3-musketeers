@@ -5,7 +5,7 @@ const Conf = require('conf');
 const pkg = require('../package.json');
 
 const config = new Conf();
-
+ 
 updateNotifier({pkg}).notify();
 
 const saveCurrencies = argv => {
